@@ -6,10 +6,12 @@
       <first-sync>true</first-sync>
     </data-source>
     <data-source name="Rails my_app: development" uuid="e13c1c86-bad0-44c9-a420-dfbde2bc8022">
-      <first-sync>true</first-sync>
+      <schema-pattern>my_app_development.*</schema-pattern>
+      <default-schemas>my_app_development.*</default-schemas>
     </data-source>
     <data-source name="Rails my_app: test" uuid="d2ea8928-28a9-4096-889d-01d1f463fd88">
-      <first-sync>true</first-sync>
+      <schema-pattern>my_app_test.*</schema-pattern>
+      <default-schemas>my_app_test.*</default-schemas>
     </data-source>
     <data-source name="Rails my_app: production" uuid="b4008d3c-d9bf-488a-a998-fd08862c92bf">
       <first-sync>true</first-sync>
