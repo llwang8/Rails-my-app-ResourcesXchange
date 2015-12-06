@@ -15,7 +15,6 @@
     </data-source>
     <data-source name="Rails my_app: production" uuid="b4008d3c-d9bf-488a-a998-fd08862c92bf">
       <first-sync>true</first-sync>
-      <user-name>my_app</user-name>
       <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe7dff3dff5dfebdffadffadff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
     </data-source>
   </component>

@@ -5,7 +5,7 @@ class Micropost < ActiveRecord::Base
 
   validates :user_id, presence: true
   validates :content, presence: true, length: { maximum: 140 }
-  validates :picture_size
+  validate :picture_size
 
   private
 
@@ -14,5 +14,6 @@ class Micropost < ActiveRecord::Base
         errors.add(:picture, "should be less than 5MB")
       end
     end
-
 end
+
+
